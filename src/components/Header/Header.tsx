@@ -17,7 +17,7 @@ export default function Header() {
                         <input type="text" id="name" name="name" placeholder='Pesquise por nome' />
                     </div>
 
-                    <div className='search-field selected'>
+                    <div className='search-field select'>
                         <label className='sr-only' htmlFor='city'>Selecione uma cidade</label>
                         <MapPin className='icon' size={32} weight="light" />
                         <select name='city' id="city">
@@ -27,9 +27,9 @@ export default function Header() {
                             <option value="salvador">Salvador</option>
                             <option value="campinas">Campinas</option>
                         </select>
-                        <CaretDown className='icon' size={18} weight="bold" />
+                        <CaretDown className='icon icon-select' size={18} weight="bold" />
                     </div>
-                    <button>Buscar agora</button>
+                    <button className='btn primary'>Buscar agora</button>
                 </form>
             </div>
         </header>
