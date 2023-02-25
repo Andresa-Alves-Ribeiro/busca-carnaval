@@ -7,6 +7,7 @@ Este projeto foi criado durante o evento #boraCodar que são desafios semanais, 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-deploy">Deploy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -39,6 +40,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS: `all`, `overflow`, `::before`, `::after`, `rem`, `position`, `fit-content`, `flex e grid`, `@media`, `responsividade`
 - Novo DevTools do Edge
 
+## ⚙️ Deploy
+
+Você pode acessar o link abaixo e visualizar o deploy:
+
+https://busca-carnaval.vercel.app/
+
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1207675804423978995). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
@@ -49,4 +56,6 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com ♥ by Andresa A Ribeiro :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+<p align="center">
+  Feito com ♥ by Andresa A Ribeiro :wave:
+</p>
