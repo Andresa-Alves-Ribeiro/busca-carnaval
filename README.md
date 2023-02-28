@@ -1,66 +1,61 @@
-<h1 align="center"> #7 Carnaval Searcher </h1>
+<h1 align="center"> Site para encontrar seu bloco no carnaval </h1>
 
 <p align="center">
-Um site para encontrar um bloco de carnaval é o #7 desafio <a href="https://boracodar.dev/">#BORACODAR</a> da RocketSeat<br/>
+Este projeto foi criado durante o evento #boraCodar que são desafios semanais, promovido pela Rocketseat para ensino de tecnologias WEB. No projeto original foi usados as tecnologias HTML e CSS, mas tomei a liberdade de elevar o desafio a um passo maior: criar o projeto com React <br/>
 </p>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-collaborators">Collaborators</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-deploy">Deploy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
+
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
 <br>
 
-<p align="center" id="-layout">
-  <img alt="carnaval searcher project gif" src="./src/assets/gif-carnaval-web.gif" width="100%">
+<p align="center">
+  <img src=".github/preview.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML
-- CSS
-- JavaScript
-- React
+- React.js
+- Typescript
 - Git e Github
 - Figma
-- React Leaflet
+- Phosphor Icons
 
-## 💻 Projeto
+**O que aprendi nesse desafio:**
 
-O projeto _Carnaval Searcher_ foi realizado como parte do #7 desafio #BORACODAR da RocketSeat sugerido pelo professor <a href="https://github.com/maykbrito" alt="Link para o GitHub do professor Mayk Brito" target="_blank">Mayk Brito</a>.
+- Organização de Github, readme, imagens, hacks para tabela de readme
+- Input, Select e Button customizados
+- Uso de ícones e fontes customizdas
+- REACT: `form`,`header`,`main`,`section`,`form`,`select`,`img`,
+- CSS: `all`, `overflow`, `::before`, `::after`, `rem`, `position`, `fit-content`, `flex e grid`, `@media`, `responsividade`
+- Novo DevTools do Edge
 
-<h1 align="center">
-  Funcionalidades
-</h1>
+## ⚙️ Deploy
 
-O desafio inicial foi a criação de um site para buscar blocos de carnaval como o modelo mostrado em <a href="#-layout">Layout</a>, após a confecção do modelo, adicionamos a funcionalidade de poder pesquisar pelo bloco e mostrar a localização dos blocos no mapa.
+Você pode acessar o link abaixo e visualizar o deploy:
 
-<h2 align="center">
-  Página Inicial
-</h2>
-
-<p>Na Página Inicial, há a opção de pesquisar por nome do bloco ou região em que ele se encontra.</p>
-
-<p align="center">
-  <img alt="carnaval searcher first page project gif" src="./src/assets/first-page-carnaval.png" width="100%">
-</p>
-
-<p>Na caixa onde são mostrado os resultados da pesquisa, há um botão indicando a visualização por lista ou por mapa, caso selecionado mapa, será mostrado pins com a localização de cada bloco. Ao ser clicado, abre um popup com mais informações.</p>
-
-<p align="center">
-  <img alt="carnaval searcher map project gif" src="./src/assets/carnaval-map.png" width="100%">
-</p>
-
-_<h2 align="center" ><a href="https://carnaval-searcher.vercel.app/" target="_blank">Visite o projeto online</a></h2>_
+https://busca-carnaval.vercel.app/
 
 ## 🔖 Layout
 
-Você pode visualizar o layout proposto pela RocketSeat através do [LINK](https://www.figma.com/community/file/1207675804423978995). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1207675804423978995). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
-## 📃 Collaborators
+## :memo: Licença
 
-This challange was made by [Julia](https://gsajulia.github.io) and [Ricardo](https://rickazuo.github.io/portfolio/)
+Esse projeto está sob a licença MIT.
+
+---
+
+<p align="center">
+  Feito com ♥ by Andresa A Ribeiro :wave:
+</p>
