@@ -1,7 +1,6 @@
 import feathers from "../../assets/feathers.svg";
 import dancer from "../../assets/dancer.svg";
 import styles from "./styles.module.css";
-
 import Search from "../Search/Search";
 
 export default function Header({ cards, setSearchedCards }) {
@@ -19,7 +18,7 @@ export default function Header({ cards, setSearchedCards }) {
         alt="background feathers image"
       />
       <div className={styles.title}>
-        <h3>FIND YOUR BLOCK</h3>
+        <p>FIND YOUR BLOCK</p>
         <h1>Encontre os melhores blocos de carnaval de 2023</h1>
       </div>
       <img

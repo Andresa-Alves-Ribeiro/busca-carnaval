@@ -11,9 +11,9 @@
     overflow-x: hidden;
 }
 
-h3 {
+p {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #e45858;
@@ -30,29 +30,23 @@ h1 {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-
+    font-size: 3rem;
     display: flex;
     align-items: center;
     text-align: center;
-
     color: #121214;
+    padding-top: 2rem;
 }
 
 input {
     display: flex;
     flex-direction: row;
     align-items: center;
-
     padding: 15px 65px;
-
-    /* background-color: #7C7C8A; */
     border-radius: 5px;
     border-color: transparent;
-
     background: url(../assets/search.svg) no-repeat scroll 7px #f4f4ff;
     padding-left: 40px;
-
     z-index: 3;
 }
 
@@ -62,9 +56,7 @@ input::placeholder {
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
-
     color: #7c7c8a;
-
     z-index: 3;
 }
 
@@ -73,23 +65,17 @@ select {
     flex-direction: row;
     align-items: center;
     gap: 12px;
-
     padding: 15px 65px;
-
     border-radius: 5px;
     border-color: transparent;
-
     background: url(../assets/location.svg) no-repeat scroll 7px #f4f4ff;
     padding-left: 40px;
-
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
-
     color: #7c7c8a;
-
     z-index: 3;
 }
 

@@ -1,56 +1,35 @@
-.Footer{
-    padding: 24px;
-    background-color: #ffffff;
-    background-size: 100% 150px;
-    margin-top: 70px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 140%;
-    gap: 10px;
+.Footer {
+  padding: 24px;
+  background: linear-gradient(
+    135deg,
+    #ffd94b,
+    #f83600,
+    #e45858,
+    #ff7ad7,
+    #496afe,
+    #a08cff,
+    #12fff7
+  );
+  background-size: 100% 150px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 140%;
+  gap: 10px;
 }
 
 .link {
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 
-.span1 {
-    color: #a08cff;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-}
-
-.span2 {
-    color: #ffd94b;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-}
-
-.span3 {
-    color: #e45858;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-}
-
-.span4 {
-    color: #ff7ad7;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-}
-
-.span5 {
-    color: #496afe;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
+.link:hover {
+  text-decoration: underline;
 }

@@ -1,10 +1,5 @@
-.resultsObservation {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 100%;
-  color: #7c7c8a;
+.resultsBlocks {
+  padding-top: 4rem;
 }
 
 .gridResults {

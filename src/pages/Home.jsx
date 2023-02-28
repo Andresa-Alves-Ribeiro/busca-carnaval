@@ -96,7 +96,7 @@ function Home() {
 
   return (
     <div className={styles.carnavalContainer}>
-      <Header cards={cardsData} setSearchedCards={setSearchedCards} />
+      <Header cards={cardsData} setSearchedCards={setSearchedCards} className={styles.header} />
       <Confetti
         tweenDuration={1000}
         numberOfPieces={400}
