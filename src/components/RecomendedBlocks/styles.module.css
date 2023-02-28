@@ -1,0 +1,22 @@
+.resultsObservation {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #7c7c8a;
+}
+
+.gridResults {
+  position: relative;
+  display: grid;
+  gap: 30px 30px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .gridResults {
+    grid-template-columns: auto;
+  }
+}

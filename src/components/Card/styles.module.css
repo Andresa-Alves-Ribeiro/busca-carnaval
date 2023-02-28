@@ -1,0 +1,66 @@
+.elementGrid {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 16px;
+  background: #f3f3f3;
+  color: #121214;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #6246ea;
+}
+
+.titleResults {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+}
+
+.bodyResults {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.localizationResults {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.elementGrid:hover {
+  background: linear-gradient(
+    135deg,
+    #ffd94b,
+    #f83600,
+    #e45858,
+    #ff7ad7,
+    #496afe,
+    #a08cff,
+    #12fff7
+  );
+  color: #fff;
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+  .gridResults {
+    grid-template-columns: auto;
+  }
+}
