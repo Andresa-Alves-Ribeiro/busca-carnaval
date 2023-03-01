@@ -25,6 +25,7 @@ Este projeto foi criado durante o evento #boraCodar que são desafios semanais, 
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
+- Vite
 - React.js
 - Git e Github
 - Figma
