@@ -26,10 +26,11 @@ Este projeto foi criado durante o evento #boraCodar que são desafios semanais, 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - React.js
-- Typescript
 - Git e Github
 - Figma
 - Phosphor Icons
+- Leaflet
+- Confetti
 
 **O que aprendi nesse desafio:**
 
